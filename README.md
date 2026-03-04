@@ -77,30 +77,32 @@ This project was developed independently as part of academic coursework and achi
 
 ## 📂 Project Structure
 
+```
 banking-website/
 │
-├── index.html  
-├── about.html  
-├── services.html  
-├── faq.html  
-├── contact.html  
-├── MortgageCalculator.html  
+├── index.html
+├── about.html
+├── services.html
+├── faq.html
+├── contact.html
+├── MortgageCalculator.html
 │
-├── about.css  
-├── contact.css  
-├── FAQ.css  
-├── service.css  
-├── MortgageCalculator.css  
+├── about.css
+├── contact.css
+├── FAQ.css
+├── service.css
+├── MortgageCalculator.css
 │
-├── contact.js  
-├── service.js  
-├── FAQ.js  
-├── MortgageCalculator.js  
+├── contact.js
+├── service.js
+├── FAQ.js
+├── MortgageCalculator.js
 │
-├── disk_usage.sh  
-├── organize_files.sh  
+├── disk_usage.sh
+├── organize_files.sh
 │
-└── README.md  
+└── README.md
+```
 
 ---
 

@@ -46,10 +46,9 @@ A console-based Library Management System to demonstrate core Data Structures & 
 
 ## 📌 Project Overview
 
-This is a multi-page banking-themed website developed using HTML, CSS, and JavaScript.  
-The project focuses on frontend design, layout structuring, and user interface development.
+This is a multi-page banking-themed website developed using HTML, CSS, and JavaScript. The project focuses on frontend development, modular file organisation, and page-specific scripting.
 
-The website includes multiple pages such as Home, About, Services, FAQ, Contact, and a Moorgate financial calculator.
+The website includes dedicated pages for Home, About, Services, FAQ, Contact, and a Mortgage Calculator.
 
 This project was developed independently as part of academic coursework and achieved a score of 80%+.
 
@@ -57,21 +56,22 @@ This project was developed independently as part of academic coursework and achi
 
 ## 🚀 Features
 
-- Multi-page website structure
+- Multi-page website architecture
 - Custom banking brand and layout
-- Moorgate financial calculator (JavaScript-based)
-- Navigation bar linking all pages
+- Dedicated CSS and JavaScript files for individual pages
+- Mortgage Calculator built using JavaScript
 - Structured FAQ and Services sections
-- Responsive layout using CSS
-- Clean file organisation
+- Modular and organised project structure
+- Basic shell scripts for file management utilities
 
 ---
 
 ## 🛠 Technologies Used
 
-- HTML5 – Page structure and content  
-- CSS3 – Styling and layout design  
-- JavaScript – Calculator functionality and interactive elements  
+- HTML5 – Page structure and layout
+- CSS3 – Page-specific styling and design
+- JavaScript – Interactive elements and calculator functionality
+- Bash (Shell Scripting) – Utility automation scripts
 
 ---
 
@@ -84,39 +84,53 @@ banking-website/
 ├── services.html  
 ├── faq.html  
 ├── contact.html  
-├── calculator.html  
-├── style.css  
-├── script.js  
+├── MortgageCalculator.html  
+│
+├── about.css  
+├── contact.css  
+├── FAQ.css  
+├── service.css  
+├── MortgageCalculator.css  
+│
+├── contact.js  
+├── service.js  
+├── FAQ.js  
+├── MortgageCalculator.js  
+│
+├── disk_usage.sh  
+├── organize_files.sh  
+│
 └── README.md  
 
 ---
 
 ## 💡 Key Learning Outcomes
 
-- Developed multi-page website architecture  
-- Improved CSS styling and layout techniques  
-- Practiced JavaScript integration within HTML pages  
-- Strengthened understanding of frontend structure and navigation systems  
-- Built a realistic themed web project from scratch  
+- Developed a structured multi-page frontend application
+- Applied modular CSS and JavaScript separation
+- Practiced DOM manipulation and event handling
+- Improved project organisation and maintainability
+- Gained exposure to basic shell scripting for automation tasks
 
 ---
 
 ## 🔮 Future Improvements
 
-- Backend integration (Node.js / Python Flask)  
-- Database connectivity for dynamic content  
-- Secure authentication system  
-- Form validation and enhanced interactivity  
+- Backend integration (Node.js / Python Flask)
+- Database connectivity for dynamic content
+- Secure authentication system
+- Enhanced form validation
+- Improved UI/UX consistency
 
 ---
 
 ## ▶️ How to Run the Project
 
-1. Download or clone the repository  
-2. Open the project folder  
+1. Clone or download the repository
+2. Open the project folder
 3. Open `index.html` in your browser  
    OR  
-4. Use VS Code Live Server extension  
+4. Use VS Code Live Server extension
 
 ---
 
